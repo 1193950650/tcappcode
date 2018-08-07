@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/main",
+     "pages/list/main",
+     "pages/welcome/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#e50150",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "#ffffff"
+  },
+   "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#DF3031",
+    "list": [
+      {
+        "pagePath": "pages/index/main",
+        "text": "首页",
+        "iconPath": "/static/images/home/homeicon_24.jpg",
+        "selectedIconPath": "/static/images/home/homeicon_24.jpg"
+      },
+      {
+        "pagePath": "pages/list/main",
+        "text": "商城",
+        "iconPath": "/static/images/home/homeicon_26.jpg",
+        "selectedIconPath": "/static/images/home/homeicon_26.jpg"
+      },
+      {
+        "pagePath": "pages/welcome/main",
+        "text": "发布",
+        "iconPath": "/static/images/home/homeicon_28.jpg",
+        "selectedIconPath": "/static/images/home/homeicon_28.jpg"
+      },
+            {
+        "pagePath": "pages/welcome/main",
+        "text": "积分",
+        "iconPath": "/static/images/home/homeicon_31.jpg",
+        "selectedIconPath": "/static/images/home/homeicon_31.jpg"
+      },
+            {
+        "pagePath": "pages/welcome/main",
+        "text": "我的",
+        "iconPath": "/static/images/home/homeicon_34.jpg",
+        "selectedIconPath": "/static/images/home/homeicon_34.jpg"
+      }
+    ]
+  }
+}
