@@ -106,6 +106,17 @@ export default {
   },
   mounted(){
 		this.navbarSliderClass1();
+		var data = 'aa'
+		wx.request({
+			url:'https://www.zys666.top/wx/test',
+			method:'POST',
+			success:function(res){
+				console.log(res);
+			},
+			fail:function(err){
+				console.log(err);
+			}
+		})
   },
   methods: {
   	 navbarSliderClass1() {
