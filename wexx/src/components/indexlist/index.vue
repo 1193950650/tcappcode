@@ -6,9 +6,6 @@
 				<p class="username">用户名</p>
 				<p class="bq"><span>标签</span></p>
 			</div>
-			<div class="c">
-				<span><img class="iconimages1" src="/static/images/home/homeicon_03.jpg"/>拨打电话</span>
-			</div>
 		</div>
 		<div class="text">
 			content..... Font Awesome为您提供可缩放的矢量图标，您可以使用CSS所提供的所有特性对它们进行更改，包括：大小、颜色、阴影或者其它任何支持的效果。
@@ -20,9 +17,6 @@
 				<li><img src="/static/images/home_03.jpg" /></li>
 				<li><img src="/static/images/home_03.jpg" /></li>
 			</ul>
-		</div>
-		<div class="dzxx font-s">
-			<img class="iconimages2" src="/static/images/home/homeicon_07.jpg" />地址信息
 		</div>
 		<div class="timeandbtn font-s">
 			<span class="a">07月02日 09：01</span><span class="b">查看详情</span>

@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/main",
      "pages/list/main",
-     "pages/welcome/main"
+     "pages/welcome/main",
+     "pages/shopping/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -21,7 +22,7 @@
         "selectedIconPath": "/static/images/home/homeicon_24.jpg"
       },
       {
-        "pagePath": "pages/list/main",
+        "pagePath": "pages/shopping/main",
         "text": "商城",
         "iconPath": "/static/images/home/homeicon_26.jpg",
         "selectedIconPath": "/static/images/home/homeicon_26.jpg"
