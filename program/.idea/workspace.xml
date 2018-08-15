@@ -26,8 +26,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+            <state relative-caret-position="72">
+              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -158,7 +158,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,26 +165,17 @@
               <item name="program" type="b2602c69:ProjectViewProjectNode" />
               <item name="program" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="program" type="b2602c69:ProjectViewProjectNode" />
-              <item name="program" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="program" type="b2602c69:ProjectViewProjectNode" />
-              <item name="program" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.9.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wexx" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -236,17 +226,19 @@
       <workItem from="1533691314135" duration="614000" />
       <workItem from="1533695334940" duration="613000" />
       <workItem from="1533707177474" duration="13026000" />
+      <workItem from="1534078006847" duration="98000" />
+      <workItem from="1534078135843" duration="30000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20532000" />
+    <option name="totallyTimeSpent" value="20660000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987715" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987715" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -273,9 +265,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/.well-known/pki-validation/EB17F93764414C6762EFF4F22E8599A9.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/.well-known/pki-validation/EB17F93764414C6762EFF4F22E8599A9.txt" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -324,9 +314,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/.well-known/pki-validation/EB17F93764414C6762EFF4F22E8599A9.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/.well-known/pki-validation/EB17F93764414C6762EFF4F22E8599A9.txt" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -375,9 +363,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/.well-known/pki-validation/EB17F93764414C6762EFF4F22E8599A9.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/.well-known/pki-validation/EB17F93764414C6762EFF4F22E8599A9.txt" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -457,9 +443,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/public/.well-known/pki-validation/fileauth.txt" />
-    <entry file="file://$PROJECT_DIR$/public/.well-known/pki-validation/EB17F93764414C6762EFF4F22E8599A9.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/.well-known/pki-validation/EB17F93764414C6762EFF4F22E8599A9.txt" />
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -467,40 +451,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/ssl/www.zys666.top-ca-bundle.crt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="59" lean-forward="true" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ssl/www.zys666.top.key">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="8" lean-forward="true" selection-end-line="26" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ssl/ssl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="90" column="20" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www.zys666.top.key">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ssl/www.zys666.top-ca-bundle.crt" />
+    <entry file="file://$PROJECT_DIR$/public/ssl/www.zys666.top.key" />
+    <entry file="file://$PROJECT_DIR$/public/ssl/ssl.js" />
+    <entry file="file://$PROJECT_DIR$/www.zys666.top.key" />
     <entry file="file://$PROJECT_DIR$/public/1_www.zys666.top_bundle.crt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile.json" />
     <entry file="file://$PROJECT_DIR$/Dockerfile.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -559,8 +517,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+        <state relative-caret-position="72">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
         </state>
       </provider>
     </entry>

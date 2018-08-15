@@ -1,5 +1,6 @@
 <template>
 	<div class="content">
+		<div @click="openurl()">
 		<div class="content_height">
 			<div class="a"><img src="/static/images/home_03.jpg" /></div>
 			<div class="b">
@@ -21,6 +22,7 @@
 		<div class="timeandbtn font-s">
 			<span class="a">07月02日 09：01</span><span class="b">查看详情</span>
 		</div>
+		</div>
 		<div class="ffooter font-s">
 			<span><img class="iconimages s1" src="/static/images/home/homeicon_10.jpg"/><i style="color: #27a2ff;display: inline-block;">8989</i></span>
 			<span><img class="iconimages s2" src="/static/images/home/homeicon_12.jpg"/><i style="color: #27a2ff;display: inline-block;">2</i></span>
@@ -39,7 +41,11 @@
 		},
 
 		methods: {
-
+			openurl(){
+				wx.navigateTo({
+					url:'/pages/indexDetile/main'
+				})
+			}
 		}
 	}
 </script>
@@ -114,13 +120,12 @@
 		}
 		.dzxx {
 			padding: 20rpx;
-			img{
-				height:35rpx;
-				width:35rpx;
-				position:relative;
-				top:6rpx;
-				margin-right:8rpx;
-
+			img {
+				height: 35rpx;
+				width: 35rpx;
+				position: relative;
+				top: 6rpx;
+				margin-right: 8rpx;
 			}
 		}
 		.timeandbtn {
@@ -144,30 +149,26 @@
 			padding: 0rpx 20rpx;
 			line-height: 70rpx;
 			span {}
-			.iconimages{
-				position:relative;
-				top:6rpx;
-				margin-right:8rpx;
+			.iconimages {
+				position: relative;
+				top: 6rpx;
+				margin-right: 8rpx;
 			}
-			.s1{
-				height:35rpx;
-width:40rpx;
-
+			.s1 {
+				height: 35rpx;
+				width: 40rpx;
 			}
-						.s2{
-				height:35rpx;
-width:34rpx;
-
+			.s2 {
+				height: 35rpx;
+				width: 34rpx;
 			}
-						.s3{
-				height:35rpx;
-width:37rpx;
-
+			.s3 {
+				height: 35rpx;
+				width: 37rpx;
 			}
-						.s4{
-				height:31rpx;
-width:36rpx;
-
+			.s4 {
+				height: 31rpx;
+				width: 36rpx;
 			}
 		}
 	}

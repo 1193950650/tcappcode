@@ -1,9 +1,18 @@
 {
   "pages": [
     "pages/index/main",
-     "pages/list/main",
+     "pages/papers/main",
      "pages/welcome/main",
-     "pages/shopping/main"
+     "pages/shopping/main",
+     "pages/zxdetile/main",
+     "pages/zxdetilesp/main",
+     "pages/mine/main",
+     "pages/indexDetile/main",
+     "pages/ywc/main",
+     "pages/dfh/main",
+     "pages/dsh/main",
+     "pages/dsk/main",
+     "pages/dfk/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -18,29 +27,29 @@
       {
         "pagePath": "pages/index/main",
         "text": "首页",
-        "iconPath": "/static/images/home/homeicon_24.jpg",
-        "selectedIconPath": "/static/images/home/homeicon_24.jpg"
+        "iconPath": "/static/images/icon_nav_issues.png",
+        "selectedIconPath": "/static/images/icon_nav_issues.png"
       },
       {
-        "pagePath": "pages/shopping/main",
-        "text": "商城",
+        "pagePath": "pages/papers/main",
+        "text": "资讯",
         "iconPath": "/static/images/home/homeicon_26.jpg",
         "selectedIconPath": "/static/images/home/homeicon_26.jpg"
       },
       {
-        "pagePath": "pages/welcome/main",
+        "pagePath": "pages/papers/main",
         "text": "发布",
         "iconPath": "/static/images/home/homeicon_28.jpg",
         "selectedIconPath": "/static/images/home/homeicon_28.jpg"
       },
             {
-        "pagePath": "pages/welcome/main",
+        "pagePath": "pages/papers/main",
         "text": "积分",
         "iconPath": "/static/images/home/homeicon_31.jpg",
         "selectedIconPath": "/static/images/home/homeicon_31.jpg"
       },
             {
-        "pagePath": "pages/welcome/main",
+        "pagePath": "pages/mine/main",
         "text": "我的",
         "iconPath": "/static/images/home/homeicon_34.jpg",
         "selectedIconPath": "/static/images/home/homeicon_34.jpg"

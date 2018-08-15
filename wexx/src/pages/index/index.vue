@@ -21,8 +21,9 @@
      	时间：2018-08-05
      	描述：以上是搜索框
      -->
+
     <div class="page__bd page__bd_spacing">
-      <swiper :indicator-dots="indicatorDots" :autoplay="autoplay" :interval="interval" :duration="duration" :circular="circular" @change="swiperChange" @animationfinish="animationfinish">
+      <swiper class='swipet1' :indicator-dots="indicatorDots" :autoplay="autoplay" :interval="interval" :duration="duration" :circular="circular" @change="swiperChange" @animationfinish="animationfinish">
         <div v-for="(item, index) in imgUrls" :key="index">
           <swiper-item>
               <div class="weui-grids">
@@ -45,13 +46,33 @@
 			<div class="gg">
 					<img class="img" src="/static/images/gg_03.jpg"/>
 			</div>
-			
+
+
+			<!--
+            	作者：1193950650@qq.com
+            	时间：2018-08-11
+            	描述：文字滚动
+            -->
+      <div class="gg2">
+      	<div class="gg2-1">
+      		公告：
+      	</div>
+				<div class="gg2-2">
+		      <swiper class='swipet2' :vertical='vertical' :direction='direction1' :indicator-dots="indicatorDots1" :autoplay="autoplay1" :interval="interval" :duration="duration1" :circular="circular1" @change="swiperChange" @animationfinish="animationfinish">
+
+		          <swiper-item v-for="(item, index) in arry" :key="index" style='margin-left: 20rpx;'>
+		     					<span style="color: #666666;">{{item}}</span>
+		          </swiper-item>
+
+		      </swiper>
+				</div>
+      </div>
 			<!--
             	作者：1193950650@qq.com
             	时间：2018-08-05
             	描述：切换加载
             -->
-            
+
       <div class="page__bd">
       <div class="weui-tab">
         <div class="weui-navbar">
@@ -87,6 +108,14 @@ export default {
       interval: 5000,
       duration: 500,
       circular: false,
+
+      indicatorDots1: false,
+      autoplay1: true,
+      interval1: 500,
+      duration1: 500,
+      circular1: true,
+      vertical:'true',
+
       imgUrls:[{list:[{ src: '/static/images/icon_nav_button.png', name: 'Button' },
         { src: '/static/images/icon_nav_cell.png', name: 'Cell' },
         { src: '/static/images/icon_nav_toast.png', name: 'Toast' },
@@ -96,12 +125,16 @@ export default {
         { src: '/static/images/icon_nav_article.png', name: 'Article' },
         { src: '/static/images/icon_nav_actionSheet.png', name: 'ActionSheet' },
         { src: '/static/images/icon_nav_icons.png', name: 'Icons' }]},{},{}],
-      
-      
+
+
       tabs: ['选项一', '选项二', '选项三'],
       activeIndex: 0,
       fontSize: 30,
-      navbarSliderClass:'weui-navbar__slider_0'
+      navbarSliderClass:'weui-navbar__slider_0',
+
+      arry:['1asdfsadfsadfaf','2asfsadfasdfsadf','3asdfsafsadf','4sadfasdf'],
+      number:0,
+      isshow:true
     }
   },
   mounted(){
@@ -153,13 +186,62 @@ export default {
     tabClick(e) {
       this.activeIndex = e.currentTarget.id;
       this.navbarSliderClass1();
+    },
+    autherText(){
+    	let hascookie = wx.getStorageSync('userinfo') || false;
+    	console.log(hascookie)
+    	if(!hascookie){ //授权验证不通过
+    		wx.redirectTo({
+    			url:'/pages/welcome/main',
+    			fail(e){
+    				console.log(e)
+    			}
+    		})
+    	}
     }
   },
   components:{listV},
+  onShow(){
+  	this.autherText();
+  }
 }
 </script>
 
-<style lang="css" scoped="scoped">
+<style lang="scss" scoped="scoped">
+	.gg2{
+			height:100rpx;
+			overflow:hidden;
+			display:-ms-flexbox;
+			display:flex;
+			-ms-flex-align:start;
+			align-items:flex-start;
+			-ms-flex-pack:justify;
+			justify-content:space-between;
+			margin-bottom:20rpx;
+			color:white;
+			padding:20rpx;
+			background-color:white;
+
+		div{
+			height: 100%;
+			overflow: hidden;
+		}
+		.gg2-1{
+			width: 111rpx;
+			//border: 1rpx solid red;
+			color: #666666;
+			text-align: center;
+			line-height: 92rpx;
+		}
+		.gg2-2{
+			height:100%;
+			overflow:hidden;
+			width:90%;
+			overflow: hidden;
+			//border: 1rpx solid red;
+		}
+
+	}
 	.page__bd_spacing{
 		padding: 0px;
 		background-color: white;
@@ -177,13 +259,18 @@ export default {
 		border-bottom:none;
 
 	}
-	
+
 	.weui-grids{
 		border: none;
 	}
-	swiper {
+	.swipet1 {
 	display:block;
 	height:410rpx;
+	}
+	.swipet2 {
+display:block;
+height:57rpx;
+margin-top:22rpx;
 	}
 	.gg{
 		width: 100%;
@@ -219,5 +306,4 @@ export default {
 	.weui-navbar__item.weui-bar__item_on {
 		color: #e50150;
 	}
-
 </style>
