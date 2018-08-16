@@ -10,7 +10,7 @@
 				{{userinfo.nickName}}
 			</div>
 		</div>
-		
+
 		<div class="zxsp">
 			<p class="zxsp-a">
 				<span>最新商品</span>
@@ -41,24 +41,24 @@
 					</navigator>
 				</div>
 				<div class="opui1">
-					<navigator open-type='navigate' url='/pages/ywc/main'>
+					<navigator open-type='navigate' url='/pages/tksh/main'>
 					<img src="/static/mine/iocns_03.jpg"/>
 					<span>退款/售后</span>
 					</navigator>
-				</div>				
+				</div>
 			</div>
 		</div>
-		
+
         <div class="weui-panel__bd">
           <div class="weui-media-box weui-media-box_small-appmsg">
             <div class="weui-cells weui-cells_in-small-appmsg">
-              <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+              <navigator url="/pages/myjifen/main" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
                 <div class="weui-cell__bd weui-cell_primary">
                   <div class="font_12">我的积分</div>
                 </div>
                 <div class="weui-cell__ft weui-cell__ft_in-access"></div>
               </navigator>
-              <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+              <navigator url="/pages/shdz/main" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
                 <div class="weui-cell__bd weui-cell_primary">
                   <div class="font_12">收货地址</div>
                 </div>
@@ -75,7 +75,7 @@
                   <div class="font_12">小程序开发</div>
                 </div>
                 <div class="weui-cell__ft weui-cell__ft_in-access"></div>
-              </navigator>              
+              </navigator>
             </div>
           </div>
         </div>

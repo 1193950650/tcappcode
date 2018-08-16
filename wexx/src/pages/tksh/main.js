@@ -3,11 +3,9 @@ import App from './index'
 
 const app = new Vue(App)
 app.$mount()
+
 export default {
 	config:{
-		navigationBarTitleText:"首页",
-		enablePullDownRefresh: true,
-    backgroundTextStyle:"dark"
+		navigationBarTitleText: "退款/售后",
 	}
 }
-

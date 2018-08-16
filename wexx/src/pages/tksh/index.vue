@@ -22,8 +22,9 @@
           <div class="d">￥799.00</div>
         </div>
         <div class="c">
-          <span class="aa">我要退款</span>
-          <span class="bb">评价卖家</span>
+            <div class="font-10" style="color: red;line-height: 70rpx;font-size: 10pt;" >
+              卖家已退款
+            </div>
         </div>
       </div>
     </div>
@@ -51,8 +52,9 @@
           <div class="d">￥799.00</div>
         </div>
         <div class="c">
-          <span class="aa">我要退款</span>
-          <span class="bb">评价卖家</span>
+          <div class="font-10" style="color: red;line-height: 70rpx;font-size: 10pt" >
+            卖家未退款
+          </div>
         </div>
       </div>
     </div>

@@ -34,6 +34,14 @@
     font-size: 10pt;
     color: #999999;
 }
+.font_7 {
+  font-size: 7pt;
+  color: #999999;
+}
+.font_6 {
+  font-size: 6pt;
+  color: #999999;
+}
 
 .blod {
     font-weight: bold;
@@ -282,4 +290,82 @@
             }
         }
     }
+}
+
+//个人中心跳转过去的界面。
+.fukuan{
+  height:90rpx;
+  line-height:88rpx;
+  font-size:12pt;
+  padding-left:10rpx;
+  background-color: white;
+}
+.fukuan_a{
+  background-color:white;
+  height:220rpx;
+  overflow:hidden;
+  overflow:hidden;
+  padding:10rpx;
+  .fukuan_a_1{
+    height: 150rpx;
+    display: flex;
+    justify-content: space-between;
+    .a{
+        width: 140rpx;
+        height: 100%;
+        margin-right: 10rpx;
+        img{
+          height: 140rpx;
+          width: 140rpx
+        }
+    }
+    .b{
+      color: #666666;
+      font-size: 10pt;
+    }
+    .d{
+      line-height: 140rpx;
+      text-align: center;
+      font-style: 12pt;
+      color: red;
+      margin-left: 10rpx;
+    }
+  }
+  .c{
+    width: 100%;
+    overflow: hidden;
+    height: 75rpx;
+    text-align: right;
+    line-height: 75rpx;
+    //border-top: 1rpx solid #666666;
+    .aa{
+      margin-right: 20rpx;
+      height: 100%;
+      padding: 8rpx 20rpx;
+      font-size: 12pt;
+      color: white;
+      background-color: #31b26b;
+    }
+    .bb{
+      height: 100%;
+      padding: 8rpx 20rpx;
+      font-size: 12pt;
+      color: white;
+      background-color: #e5014f;
+    }
+  }
+}
+.jfmx{
+  height: 140rpx;
+  overflow: hidden;
+  padding: 15rpx;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20rpx;
+  .a{
+
+  }
+  .b{
+
+  }
 }

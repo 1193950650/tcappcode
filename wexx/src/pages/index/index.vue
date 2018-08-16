@@ -198,12 +198,35 @@ export default {
     			}
     		})
     	}
-    }
+    },
   },
   components:{listV},
   onShow(){
   	this.autherText();
-  }
+  },
+  onPullDownRefresh: function () {
+    // 显示顶部刷新图标
+    wx.showNavigationBarLoading();
+    var that = this;
+
+    setTimeout(()=>{
+      // 设置数组元素
+      wx.hideNavigationBarLoading();
+      // 停止下拉动作
+      wx.stopPullDownRefresh();
+    },2000)
+  },
+  onReachBottom: function () {
+    var that = this;
+    // 显示加载图标
+    wx.showLoading({
+      title: '玩命加载中',
+    })
+    setTimeout(()=>{
+      wx.hideLoading();
+    },2000)
+
+  },
 }
 </script>
 
