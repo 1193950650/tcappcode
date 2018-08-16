@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>wexx</name>
+	<name>wechat-mini-program</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,25 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1533391817964</id>
-			<name></name>
-			<type>26</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-node_modules</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1533565849261</id>
-			<name></name>
-			<type>26</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-node_modules</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1533691236669</id>
+			<id>1533773717398</id>
 			<name></name>
 			<type>26</type>
 			<matcher>

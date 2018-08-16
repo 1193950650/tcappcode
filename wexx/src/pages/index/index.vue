@@ -141,7 +141,7 @@ export default {
 		this.navbarSliderClass1();
 		var data = 'aa'
 		wx.request({
-			url:'https://www.zys666.top/wx/test',
+			url:'https://zys666.top/wx/test',
 			method:'POST',
 			success:function(res){
 				console.log(res);
