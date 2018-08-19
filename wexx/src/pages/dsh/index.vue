@@ -60,6 +60,9 @@
 </template>
 
 <script>
+  export default {
+    name:'dsh'
+  }
 </script>
 
 <style scoped="scoped" lang="scss">

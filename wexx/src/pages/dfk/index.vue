@@ -60,6 +60,9 @@
 </template>
 
 <script>
+  export default {
+     name:'dfk'
+  }
 </script>
 
 <style scoped="scoped" lang="scss">

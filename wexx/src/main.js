@@ -16,7 +16,7 @@ app.$mount();
 export default {
   config: {
     "pages": [
-      "^pages/index/main",
+      "pages/index/main",
       "pages/papers/main",
       "pages/welcome/main",
       "pages/shopping/main",
@@ -34,7 +34,7 @@ export default {
       "pages/shdz/main",
       "pages/fabu/main",
       "pages/jifenduihuanxq/main",
-      "pages/jifenshangc/main",
+      "^pages/jifenshangc/main",
       "pages/myfabu/main"
     ],
     "window": {

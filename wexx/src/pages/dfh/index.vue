@@ -33,6 +33,9 @@
 </template>
 
 <script>
+  export default {
+
+  }
 </script>
 
 <style scoped="scoped" lang="scss">
@@ -50,7 +53,7 @@
 				img{
 					height: 100%;
 					width: 100%;
-					
+
 				}
 			}
 			.a-b{
@@ -76,9 +79,9 @@
 				color: white;
 				height: 65rpx;
 				padding-left: 20rpx;
-				padding-right: 20rpx;	
-				line-height: 65rpx;	
-				margin-right: 50rpx;		
+				padding-right: 20rpx;
+				line-height: 65rpx;
+				margin-right: 50rpx;
 			}
 			.a-e{
 				background-color: #e50150;
