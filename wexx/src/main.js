@@ -31,7 +31,11 @@ export default {
       "pages/dfk/main",
       "pages/tksh/main",
       "pages/myjifen/main",
-      "pages/shdz/main"
+      "pages/shdz/main",
+      "pages/fabu/main",
+      "pages/jifenduihuanxq/main",
+      "pages/jifenshangc/main",
+      "pages/myfabu/main"
     ],
     "window": {
       "backgroundTextStyle": "light",
@@ -56,13 +60,13 @@ export default {
           "selectedIconPath": "/static/images/home/homeicon_26.jpg"
         },
         {
-          "pagePath": "pages/papers/main",
+          "pagePath": "pages/fabu/main",
           "text": "发布",
           "iconPath": "/static/images/home/homeicon_28.jpg",
           "selectedIconPath": "/static/images/home/homeicon_28.jpg"
         },
         {
-          "pagePath": "pages/papers/main",
+          "pagePath": "pages/jifenshangc/main",
           "text": "积分",
           "iconPath": "/static/images/home/homeicon_31.jpg",
           "selectedIconPath": "/static/images/home/homeicon_31.jpg"
