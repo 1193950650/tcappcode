@@ -27,7 +27,7 @@
           <div class="weui-tab__panel">
             <div class="weui-tab__content" :hidden="activeIndex1 != 0">
               <div class="jflist">
-                <div v-for="i in listdata" :key="i" class="everycontent">
+                <div v-for="i in listdata" :key="i" class="everycontent" @click="openurl()">
                   <div class="a"><img :src="i.img" alt="" mode="heightFix"></div>
                   <div class="b font_10">{{i.point}}分</div>
                   <div class="c font_8">{{i.content}}</div>
@@ -98,6 +98,12 @@
       tabClick(e) {
         this.activeIndex1 = e.currentTarget.id;
         this.navbarSliderClass12();
+      },
+      openurl(pramar){
+        let url = '/pages/jifenduihuanxq/main?id='+pramar;
+        wx.navigateTo({
+          url:url
+        })
       }
     }
   };

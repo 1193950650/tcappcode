@@ -64,7 +64,7 @@
                 </div>
                 <div class="weui-cell__ft weui-cell__ft_in-access"></div>
               </navigator>
-              <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+              <navigator url="/pages/myfabu/main" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
                 <div class="weui-cell__bd weui-cell_primary">
                   <div class="font_12">我的发布</div>
                 </div>

@@ -462,3 +462,28 @@
     }
   }
 }
+
+.jfxq{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100rpx;
+  .a{
+    height:100%;
+    width:85%;
+    padding-left:10rpx;
+    .aa{}
+    .bb{
+
+    }
+  }
+  .b{
+    font-size:10pt;
+    color:#999999;
+    line-height:82rpx;
+    margin-right:10rpx;
+  }
+}

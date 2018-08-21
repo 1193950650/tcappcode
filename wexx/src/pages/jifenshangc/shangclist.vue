@@ -14,12 +14,12 @@
     data(){
       return {
         datasc:[
-          {url:'/pages/spxq/main',src:'/static/images/testswiper_02.jpg',id:'1'},
-          {url:'/pages/spxq/main',src:'/static/images/testswiper_02.jpg',id:'1'},
-          {url:'/pages/spxq/main',src:'/static/images/testswiper_02.jpg',id:'1'},
-          {url:'/pages/spxq/main',src:'/static/images/testswiper_02.jpg',id:'1'},
-          {url:'/pages/spxq/main',src:'/static/images/testswiper_02.jpg',id:'1'},
-          {url:'/pages/spxq/main',src:'/static/images/testswiper_02.jpg',id:'1'},
+          {url:'/pages/shangpxq/main',src:'/static/images/testswiper_02.jpg',id:'1'},
+          {url:'/pages/shangpxq/main',src:'/static/images/testswiper_02.jpg',id:'1'},
+          {url:'/pages/shangpxq/main',src:'/static/images/testswiper_02.jpg',id:'1'},
+          {url:'/pages/shangpxq/main',src:'/static/images/testswiper_02.jpg',id:'1'},
+          {url:'/pages/shangpxq/main',src:'/static/images/testswiper_02.jpg',id:'1'},
+          {url:'/pages/shangpxq/main',src:'/static/images/testswiper_02.jpg',id:'1'},
         ]
       }
     }

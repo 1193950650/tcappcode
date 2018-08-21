@@ -10,4 +10,9 @@ router.post('/test', function(req, res, next) {
   res.send(data)
 });
 
+router.get('/welcome',function(req,res,next) {
+    var text = '我是微信服务器，欢迎和我通信'
+    res.send(text);
+})
+
 module.exports = router;
